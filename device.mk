@@ -28,10 +28,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-#Remove packages
-PRODUCT_PACKAGES += \
-    removepackages
-
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
@@ -133,7 +129,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
-    libshims_camera
+    libshims_camera \
+    Snap
 
 PRODUCT_PACKAGES += \
     Doze
