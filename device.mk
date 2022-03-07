@@ -25,6 +25,18 @@ $(call inherit-product, vendor/motorola/athene/athene-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# LiveDisplay native
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay*
+
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch*
+
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust*
+
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
