@@ -38,7 +38,7 @@ PRODUCT_MANUFACTURER := Motorola
 BOARD_VENDOR := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="coral-user 11 RQ1A.201205.008 6943376 release-keys" \
+	PRIVATE_BUILD_DESC="athene-user 8.1.0 OPJ28.111 12 release-keys" \
 	PRODUCT_NAME="athene" \
 	TARGET_DEVICE="athene" \
 
@@ -46,5 +46,4 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/taimen/taimen:8.1.0/OPM1.171019.021/4565141:user/release-keys
-BUILD_DESCRIPTION := taimen-user 8.1.0 OPM1.171019.021 4565141 release-keys
+BUILD_FINGERPRINT := motorola/athene/athene:8.1.0/OPJ28.111-12/d36d:user/release-keys
