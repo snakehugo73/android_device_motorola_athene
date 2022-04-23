@@ -18,10 +18,6 @@ DEVICE_PATH := device/motorola/athene
 
 BOARD_VENDOR := motorola-qcom
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-$(VENDOR_PATH)/lineagehw
-
 # AIDs and CAPS
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
