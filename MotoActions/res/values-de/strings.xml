@@ -25,6 +25,7 @@
   <string name="device_settings_app_name">Erweiterte Einstellungen</string>
   <!-- Device gestures panel -->
   <string name="screen_gestures_panel_title">Gesten</string>
+  <string name="screen_gestures_panel_summary">Verwalten von Gerätegesten</string>
   <!-- Touchscreen gesture haptic feedback -->
   <string name="touchscreen_gesture_extras">Extras</string>
   <string name="touchscreen_gesture_haptic_feedback">Haptisches Feedback</string>
